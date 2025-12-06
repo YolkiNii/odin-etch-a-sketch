@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+#grid-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    border: 2px solid black
+}
+
+#grid-container div:not(:first-child) {
+    border-top: 0;
+}
+
+.square {
+    border-right: 2px solid black;
+    flex: 1;
+}
+
+.row div:last-child {
+    border-right: 0;
+}
+
+.hover-color {
+    background-color: grey;
+}
