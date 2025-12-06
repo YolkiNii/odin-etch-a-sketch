@@ -2,6 +2,13 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 #grid-container {
@@ -31,8 +38,4 @@ body {
 
 .row div:last-child {
     border-right: 0;
-}
-
-.hover-color {
-    background-color: grey;
 }
